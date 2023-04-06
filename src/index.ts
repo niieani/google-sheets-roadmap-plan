@@ -7,6 +7,8 @@ export {
   MAKE_START_DATE,
 } from './formulas'
 
+export { CALCULATE_ROADMAP } from './roadmap'
+
 export function onOpen() {
   const spreadsheet = SpreadsheetApp.getActive()
   const menuItems = [
